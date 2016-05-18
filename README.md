@@ -44,7 +44,7 @@ which I would like to keep short since I want to rely on my package to define th
 
 # The results
 
-After installing the package and putting `remake.yml` and `remakeLoadPackage.R` in my current working directory, a call to `remake::make()` completes normally.
+After building and installing `remkeInPackage` and putting `remake.yml` and `remakeLoadPackage.R` in my current working directory, a call to `remake::make()` completes normally.
 
 ```
 > library(remake)
