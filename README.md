@@ -69,3 +69,5 @@ After installing the package and putting `remake.yml` and `remakeLoadPackage.R` 
 [    OK ] plot.pdf
 [ ----- ] all
 ```
+
+I would like a remake to be triggered.
