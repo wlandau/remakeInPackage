@@ -1,0 +1,16 @@
+sources:
+  - remakeLoadPackage.R
+
+targets:
+  all:
+    depends: plot.pdf
+
+  data.csv:
+    command: wrapper_function()
+
+  processed:
+    command: process_data("data.csv")
+
+  plot.pdf:
+    command: myplot(processed)
+    plot: true
