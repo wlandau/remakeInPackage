@@ -14,7 +14,7 @@ wrapper_function = function(){
 generate_data = function(){
   data(mtcars)
   n = dim(mtcars)[1]
-#  mtcars$cyl = rpois(n, 5) # COMMENT/UNCOMMENT THIS LINE TO SEE HOW remake::make() RESPONDS
+  mtcars$cyl = rpois(n, 5) # COMMENT/UNCOMMENT THIS LINE TO SEE HOW remake::make() RESPONDS
   write.csv(mtcars, file = "data.csv")
 }
 

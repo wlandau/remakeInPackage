@@ -59,7 +59,7 @@ After building and installing `remkeInPackage` and putting `remake.yml` and `rem
 [ ----- ] all
 ```
 
- But when I modify the contents of `remakeInPackage::generate_data()`, rebuild and resintall `remakeInPackage`, open a new R session, and and call `remake::make()`, the output files are not remade.
+ But when I modify the contents of `remakeInPackage::generate_data()`, rebuild and resintall `remakeInPackage`, open a new R session, and then call `remake::make()`, the output files are not remade.
  
 ```
 > make() 
@@ -70,4 +70,4 @@ After building and installing `remkeInPackage` and putting `remake.yml` and `rem
 [ ----- ] all
 ```
 
-I would like a remake to be triggered.
+I would like a remake to be triggered here.
